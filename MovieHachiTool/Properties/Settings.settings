@@ -1,0 +1,70 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MovieHachiTool.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="PictureHtmlExportPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">tooloutput</Value>
+    </Setting>
+    <Setting Name="ScriptHeader" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#出力フォルダ
+*outputfolder=A:\Data\20191221\output
+#背景映像
+*bgi=Waves_5778.mp4
+#BGM
+*bgm=bgm1.mp3,volume:33
+# キャラ：まとめなな
+*chara=まとめなな
+
+今日、3tene＋Nuitrackのツールでモーションキャプチャしてみたよ。
+
+口パクモーションないけどごめんね。
+
+コメントで動きについてのツッコミよろしくね。
+
+今日、2019年12月21日のまとめななのツッコミ。
+</Value>
+    </Setting>
+    <Setting Name="ScriptFooter" Type="System.String" Scope="User">
+      <Value Profile="(Default)">どうだったかな？
+
+ちゃんねる登録よろしくねー。</Value>
+    </Setting>
+    <Setting Name="MotonetaTextFileName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">元ネタ.txt</Value>
+    </Setting>
+    <Setting Name="ScripterOutputFileName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Hachiシナリオ.txt</Value>
+    </Setting>
+    <Setting Name="HachiOutputFolderPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">output</Value>
+    </Setting>
+    <Setting Name="URLPictureWriteYesNo" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="AfterOutputTextExecuteYesNo" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="FuriganaOutputYesNo" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="WipeText" Type="System.String" Scope="User">
+      <Value Profile="(Default)">*fgi=切り替えワイプ.mp4,chromakey:440:1973:-321
+;;;;</Value>
+    </Setting>
+    <Setting Name="WipeYesNo" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ImageChangeText" Type="System.String" Scope="User">
+      <Value Profile="(Default)">[image]</Value>
+    </Setting>
+    <Setting Name="URLFont" Type="System.Drawing.Font" Scope="User">
+      <Value Profile="(Default)">HGP創英角ﾎﾟｯﾌﾟ体, 20.25pt</Value>
+    </Setting>
+    <Setting Name="TitleFont" Type="System.Drawing.Font" Scope="User">
+      <Value Profile="(Default)">HGP創英角ﾎﾟｯﾌﾟ体, 36pt</Value>
+    </Setting>
+    <Setting Name="TitleRectangle" Type="System.Drawing.Rectangle" Scope="User">
+      <Value Profile="(Default)">640, 0, 0, 0</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

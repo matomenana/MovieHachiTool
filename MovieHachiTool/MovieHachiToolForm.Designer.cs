@@ -46,11 +46,10 @@
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.WipeText = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.cbFonts = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.PictureExportPathTextBox = new System.Windows.Forms.TextBox();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.label1 = new System.Windows.Forms.Label();
-            this.cbFonts = new System.Windows.Forms.ComboBox();
             this.tabControl1.SuspendLayout();
             this.convertTabPage.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -67,7 +66,6 @@
             // 
             this.tabControl1.Controls.Add(this.convertTabPage);
             this.tabControl1.Controls.Add(this.settingTabPage);
-            this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
@@ -278,6 +276,24 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "画像出力";
             // 
+            // cbFonts
+            // 
+            this.cbFonts.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbFonts.FormattingEnabled = true;
+            this.cbFonts.Location = new System.Drawing.Point(51, 38);
+            this.cbFonts.Name = "cbFonts";
+            this.cbFonts.Size = new System.Drawing.Size(100, 20);
+            this.cbFonts.TabIndex = 16;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(7, 41);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(38, 12);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "フォント";
+            // 
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(469, 13);
@@ -297,34 +313,6 @@
             this.PictureExportPathTextBox.Size = new System.Drawing.Size(465, 19);
             this.PictureExportPathTextBox.TabIndex = 0;
             this.PictureExportPathTextBox.Text = global::MovieHachiTool.Properties.Settings.Default.PictureHtmlExportPath;
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1163, 593);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "tempTabPage";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(7, 41);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 12);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "フォント";
-            // 
-            // cbFonts
-            // 
-            this.cbFonts.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbFonts.FormattingEnabled = true;
-            this.cbFonts.Location = new System.Drawing.Point(51, 38);
-            this.cbFonts.Name = "cbFonts";
-            this.cbFonts.Size = new System.Drawing.Size(100, 20);
-            this.cbFonts.TabIndex = 16;
             // 
             // MovieHachiToolForm
             // 
@@ -368,7 +356,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox PictureExportPathTextBox;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.TextBox footerTextBox;
         private System.Windows.Forms.TextBox headerTextBox;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;

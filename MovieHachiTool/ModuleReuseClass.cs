@@ -23,6 +23,7 @@ namespace MovieHachiTool
         [DllImport("ole32.dll")]
         private static extern int OleDraw(IntPtr pUnk, int dwAspect, IntPtr hdcDraw, ref Rectangle lprcBounds);
 
+        #region コメント化
         //*********************************************************************
         /// <summary>　指定されたWebサイトをbitmap画像として取得する
         /// http://nanoappli.com/blog/archives/2490
@@ -111,6 +112,7 @@ namespace MovieHachiTool
             // 取得したbmp情報を返す
             return bitmap;
         } */
+        #endregion
 
         public static Bitmap getBitmapFromTitle(string inputTitle, string inputURL, string fontName)
         {
@@ -152,6 +154,7 @@ namespace MovieHachiTool
             return bmp;
         }
 
+        #region コメント化
         /* public static String getTitleFromURL(string inputURL)
         {
             WebClient wclnt = new WebClient();
@@ -189,6 +192,7 @@ namespace MovieHachiTool
             string title = regmch.Groups["title"].Value;
             return title;
         } */
+        #endregion
 
         public static string getURLToFile(string inputURL, string outputFile)
         {
@@ -561,6 +565,7 @@ namespace MovieHachiTool
             }
         }
 
+        #region コメント化
         /// <summary>
         /// 
         /// </summary>
@@ -611,6 +616,7 @@ namespace MovieHachiTool
             }
         }
         */
+        #endregion
 
         public static string OutputYomigana(string text)
         {
@@ -711,12 +717,8 @@ namespace MovieHachiTool
             return str;
         }
 
-
     }
 
-    /// <summary>
-    /// /
-    /// </summary>
     public class MecabResult
     {
         //結果のリスト

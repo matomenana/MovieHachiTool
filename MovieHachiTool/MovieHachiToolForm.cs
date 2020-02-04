@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Configuration;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,7 +26,14 @@ namespace MovieHachiTool
             {
                 cbFonts.Items.Add(ff.Name);
             }
-            cbFonts.SelectedItem = "MS UI Gothic";
+            if (!string.IsNullOrWhiteSpace(ConfigurationManager.AppSettings["defaultFont"]))
+            {
+                cbFonts.SelectedItem = ConfigurationManager.AppSettings["defaultFont"];
+            }
+            else
+            {
+                cbFonts.SelectedItem = "MS UI Gothic";
+            }
         }
 
         private string ConvertToString()
